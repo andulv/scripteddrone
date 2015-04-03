@@ -1,0 +1,20 @@
+name: ScriptedDrone
+main: net.ulveseth.ScriptedDrone.PluginMain
+version: 0.1
+author: andulv707
+softdepend:
+permissions:
+   scripteddrone.use:
+      description: Allows a player to own and operate a drone 
+      default: op
+   scripteddrone.create:
+      description: Allows access to /drone create command
+      default: op
+   scripteddrone.web:
+      description: Allows player to control a drone through web interface.
+      default: op
+commands:
+   drone:
+      description: All ScriptedDrone commmands
+      usage: /drone <commandtype> [arguments]
+  
