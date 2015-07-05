@@ -11,4 +11,4 @@ But using the in-game commands is probably no fun. :)
 
 This plugin also contains a built in webserver. The webserver exposes a simple (REST-inspired) JSON API for controlling the drone. This API can be invoked from any client-language that is able to make HTTP GET requests.
 
-For easy access to the API, there is also a HTML interface (webpage) that allows the user to see information about the drone and write/run javascript snippets that controls the drone. 
+For easy access to the API, there is also a HTML interface (webpage) that allows the user to see information about the drone and write/run javascript snippets that controls the drone. This interface is hosted in its own repository: https://github.com/andulv/scripteddrone-jsclient#scripteddrone-jsclient
